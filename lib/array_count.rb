@@ -1,7 +1,7 @@
 def count_strings(array)
   array.count do |element|
     if element.to_s == element
-      puts element
+      element
     end
   end
 end
@@ -9,12 +9,8 @@ end
 def count_empty_strings(array)
   array.count do |element|
     if element == " " || element == ""
-      puts element
+      element
     end
   end 
 end
 
-test = ["", 4, "", "goodbye",""]
-
-count_strings(test)
-count_empty_strings(test)
