@@ -11,4 +11,7 @@ def count_empty_strings(array)
       puts element
 end
 
-test = 
+test = ["", 4, "", "goodbye",""]
+
+count_strings(test)
+count_empty_strings(test)
