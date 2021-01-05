@@ -3,6 +3,7 @@ def count_strings(array)
     if element.to_s == element
       puts element
     end
+  end
 end
 
 def count_empty_strings(array)
@@ -10,6 +11,7 @@ def count_empty_strings(array)
     if element == " " || element == ""
       puts element
     end
+  end 
 end
 
 test = ["", 4, "", "goodbye",""]
