@@ -10,3 +10,5 @@ def count_empty_strings(array)
     if element == " " || element == ""
       puts element
 end
+
+test = 
